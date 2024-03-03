@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #666;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background-color: #999;
+        }
+        .container {
+            margin: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Cafe</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <h2>Our Gallery</h2>
+        <div class="gallery">
+            <img src="pngtree-d-illustration-of-architectural-design-for-coffee-shop-bar-with-banner-image_3853372.jpg" alt="Cafe Image 1">
+            <img src="1_NlC2RTrBEbgtDrPgr6Osng.webp" alt="Cafe Image 2">
+            <img src="becof.jpg" alt="Cafe Image 3">
+            <!-- Add more images as needed -->
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Cafe Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
